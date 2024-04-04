@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifePugCommunity</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo1">
+                <img src="./imagens/pugosn.png"  width="60px" height="60px">
+            </div> <!--logo-->
+            
+            <div class="menu">
+                <a href="#">PugLife Community</a>
+                <a class="active-menu" href="#">Inicio</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#formulario">Cadastra-se</a>
+                <a href="#rodape">Contato</a>
+            </div> 
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <div class="conteudo-principal">
+            <h1 class="conteudo-principal-titulo">PugLife Community</h1>
+                <p class="conteudo-principal-texto">Conecte-se com outros proprietários de pugs, troque experiências 
+                    e encontre apoio e inspiração em cada latido e ronco!</p>
+                <button class="conteudo-principal-botao">Participe</button>
+            </div>
+                <img class="banner" src="./imagens/pug-8519638_640.png" width="500px" height="500px" alt="puglife">
+            
+        </div>
+
+        
+    </section>
+
+    <section id="galeria">
+        <div class="container">
+            
+            
+            <div class="galeria-container">
+                <h2>GALERIA</h2>
+
+                <img src="./imagens/WhatsApp Image 2024-04-02 at 13.10.55.jpeg" class="galeria-img" alt="">
+                <img src="./imagens/WhatsApp Image 2024-04-02 at 13.11.35.jpeg" class="galeria-img" alt="">
+                <img src="./imagens/WhatsApp Image 2024-04-02 at 13.15.22.jpeg" class="galeria-img" alt="">
+                <img src="./imagens/WhatsApp Image 2024-04-03 at 1.10.17 PM.jpeg" class="galeria-img" alt="">
+                <img src="./imagens/WhatsApp Image 2024-04-02 at 13.10.55.jpeg" class="galeria-img" alt="">
+                
+            </div>
+        </div>
+    </section>
+
+
+    <section id="formulario">
+        <div class="container">
+            
+                  
+                
+               <form class="formulario-box">
+                    <h2>CADASTRE-SE</h2>
+                    <fieldset>
+                        <h2>FORMULARIO DO TUTOR</h2>
+                        <br>
+                        <div class="inputBox">
+                            <label for="nome">Nome Completo:</label>
+                            <input type="text" name="nome" id="nome" class="inptUser" required>
+                            
+                        </div>
+                        <div class="inputBox">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" class="inptUser" required>
+                            
+                        </div>
+                        <div class="inputBox">
+                            <label for="telefone">Telefone:</label>
+                            <input type="tel" name="telefone" id="telefone" class="inptUser">
+                            
+                        </div>
+                        
+                        <h3>Qual o seu Pete?</h3>
+                        
+                        <input type="radio" id="cachorro" name="raça" value="cachorro" required>
+                        <label for="cachorro">Cachorro</label>
+                        <input type="radio" id="gato" name="raça" value="gato" required>
+                        <label for="gato">Gato</label>
+                        <input type="radio" id="outro" name="raça" value="outro" required>
+                        <label for="outro">Outro</label>
+                        <br><br>
+
+                        <div class="inputBox">
+                            <label for="data_nascimento"><b class="date-text">Data de Nascimento:</b></label>
+                            <br><br>
+                            <input type="date" name="data_nascimento" id="data_nascimento" class="inptUser" required>
+                            
+                        </div>
+                        <h2>Dados do Seu Pet</h2>
+                            
+                            
+                        
+                        <div class="inputBox">
+                            <label for="nome_pet">Nome do Pet:</label>
+                            <input type="text" name="nome_pet" id="nome_pet" class="inptUser" required>
+                            
+                        </div>
+
+                        <div class="inputBox">
+                            <label for="raca">Raça:</label>
+                            <input type="text" name="raca" id="raca" class="inptUser" required>
+                            
+                        </div>
+
+                        <div class="inputBox">
+                            <label for="idade">Idade:</label>
+                            <input type="number" id="idade" name="idade" class="inptUser" required>
+                            
+                        </div>
+
+                        <div class="button"><input type="submit" name="submite" class="botao"></div>
+                        
+                    </fieldset>
+                    
+                </form>
+
+            
+
+        </div>
+
+        
+
+    </section>
+
+
+    <footer id="rodape">
+        
+            
+                <h2>Nossas Redes Sociais  </h2>         
+            
+            
+                <img src="./imagens/instagram.png" class="social-links" alt="">
+                <img src="./imagens/youtube.png" class="social-links" alt="">
+                <img src="./imagens/facebook.png" class="social-links" alt="">
+            
+            
+        
+    </footer>
+
+    
+</body>
+</html>

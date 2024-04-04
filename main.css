@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*/ CABEÇALHO FONTES /*/
+
+header, section h2, section h3, footer, section h1  {
+    font-family: "bungee", sans-serif;
+    font-weight: normal;
+}
+
+header h1, section h2, section h3 {
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: "Roboto", sans-serif
+}
+
+/*/ CABEÇALHO ESTILO /*/
+
+header {
+    padding:  16px 0;
+    background-color:beige;
+    color: #ecf0f1;
+    
+}
+
+.menu a {
+    display: inline-block;
+    margin-left: 16px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #202324;
+    
+}
+
+/*/ CORPO DO HEADER SEÇÂO/*/
+
+header .container, section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*/ CONTAINER /*/
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*/CONTEUDO PRINCIPAL TEXTO/*/
+
+#about .conteudo-principal{
+    align-items: center;
+    text-align: justify;
+    margin:10%;
+}
+
+.conteudo-principal h1 {
+    padding: 10px;
+    margin: 5%;
+}
+
+
+
+/*/ BOTAO /*/
+
+.conteudo-principal-botao {
+    background-color: rgb(177, 162, 162);
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 30px;
+    font-weight: 400;
+    font-family: "Sarala", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*/ GALERIA /*/
+
+.galeria-container > h2 {
+    text-align: center;
+}
+
+#galeria {
+    width: 100%;
+    margin: auto;
+    padding: 50px;
+    background-color: azure;
+}
+
+#galeria .galeria-titulo {
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+}
+
+.galeria-container {
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+
+    
+  
+    
+}
+
+.galeria-img {
+    display: inline-block;
+    width: 240px;
+    height: 240px;
+    border-radius: 100px;   
+    padding: 5px;
+    margin: 5px ;
+    
+    
+}
+
+
+/*/FORMULARIO/*/
+
+#formulario {
+    background-color: #e5e2f0;
+}
+
+.formulario-box h2 {
+    text-align: center;
+}
+
+
+.formulario-box {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  
+    
+}
+
+
+
+fieldset {
+    
+    background-color: rgb(190, 190, 201);
+    margin: 30px;
+    border: 3px solid #59429d;;
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+
+
+
+.inputBox label{
+    width: 120px;
+    display: inline-block;
+    margin-left: 2px;
+    margin-bottom: 0.2em;
+    color: #59429d;
+}
+
+.button{
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 15px;
+    
+}
+
+input:focus {
+    outline-color: #182C61;
+}
+
+.botao {
+    font-size: 1.2em;
+    background-color: #59429d;
+    border: 0;
+    margin-bottom: 1em;
+    color: white;
+    padding: 0.2em, 0.6em;
+    box-shadow: 2px 2px 2px rgb(0, 0,0,0.2);
+    text-shadow: 1px 1px 1px rgb(0,0,0,0.5);
+    cursor: pointer;
+    
+}
+
+.botao:hover{
+    background: #3d1ba3;
+}
+
+.inputBox .inptUser {
+    border-radius: 5px;
+    
+}
+
+/*/ FOOTER /*/
+
+#rodape  {
+    background-color:  #b2c4f3;
+    
+    
+}
+
+#rodape {
+    text-align: center;
+}
+
+#rodape .social-links {
+    height: 24px;
+    display: inline;
+    
+}
